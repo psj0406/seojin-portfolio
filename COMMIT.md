@@ -1,4 +1,7 @@
-# Commit Convention
+# Git Commit Convention
+
+Git Commit 규칙
+(커밋하기 전에 한 번씩 확인하기🙏)
 
 | Type | 설명 |
 |------|------|
@@ -13,14 +16,10 @@
 
 ## Examples
 
+```text
 feat: Hero 섹션 구현
-
 fix: 모바일 메뉴 오류 수정
-
-style: Hero 레이아웃 수정
-
-refactor: Hero 컴포넌트 분리
-
+style: 레이아웃 수정
+refactor: 컴포넌트 분리
 chore: pnpm 적용
-
 docs: README 작성
