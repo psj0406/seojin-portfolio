@@ -1,0 +1,27 @@
+:root {
+  --bg: #f7f7f5;
+  --text: #111111;
+  --muted: #777777;
+  --line: rgba(17, 17, 17, 0.14);
+  --dark: #0f0f0f;
+  --dark-text: #f4f4f1;
+  --dark-muted: rgba(244, 244, 241, 0.55);
+  --accent: #315efb;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  word-break: keep-all;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+::selection { background: var(--accent); color: white; }
+
+main { overflow: hidden; }

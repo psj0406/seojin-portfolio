@@ -1,0 +1,41 @@
+.contact {
+  min-height: 74svh;
+  padding: clamp(110px, 14vw, 220px) clamp(24px, 4vw, 72px) clamp(40px, 6vw, 84px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.contact h2 {
+  max-width: 960px;
+  margin: 80px 0;
+  font-size: clamp(58px, 10vw, 172px);
+  line-height: .88;
+  letter-spacing: -0.09em;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  min-width: 150px;
+  padding: 18px 22px;
+  border: 1px solid var(--line);
+  transition: background .35s var(--ease), color .35s var(--ease);
+}
+
+.links a:hover {
+  background: var(--text);
+  color: var(--bg);
+}
