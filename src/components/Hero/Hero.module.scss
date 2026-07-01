@@ -1,3 +1,5 @@
+@use "@/styles/use" as *;
+
 .hero {
   min-height: 100svh;
   padding: 82px clamp(24px, 4vw, 72px) 42px;

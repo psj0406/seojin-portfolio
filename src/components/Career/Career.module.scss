@@ -1,3 +1,5 @@
+@use "@/styles/use" as *;
+
 .career {
   padding: clamp(104px, 13vw, 200px) clamp(24px, 4vw, 72px);
   display: grid;

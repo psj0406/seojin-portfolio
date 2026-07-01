@@ -1,3 +1,5 @@
+@use "@/styles/use" as *;
+
 .projects {
   min-height: 100svh;
   background: var(--dark);
