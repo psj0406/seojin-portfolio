@@ -1,3 +1,5 @@
+@use "@/styles/use" as *;
+
 .contact {
   min-height: 74svh;
   padding: clamp(110px, 14vw, 220px) clamp(24px, 4vw, 72px) clamp(40px, 6vw, 84px);
