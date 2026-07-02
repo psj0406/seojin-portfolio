@@ -54,11 +54,16 @@ import "./globals.scss";
 @use "@/styles/common";
 
 :root {
-  --bg: #fff;
-  --text: #231f20;
-  --muted: #757575;
-  --accent: #0033a0;
-  --secondary: #f28c38;
+  --bg: #f7f7f5;
+  --text: #111111;
+  --muted: #777777;
+  --line: rgba(17, 17, 17, 0.14);
+  --dark: #0f0f0f;
+  --dark-text: #f4f4f1;
+  --dark-muted: rgba(244, 244, 241, 0.55);
+  --accent: #315efb;
+  --accent2: #285f04;
+  --ease: cubic-bezier(.22, 1, .36, 1);
 }
 
 html {
@@ -91,14 +96,16 @@ $fs-base: 10;
 $fs-body: 16;
 $lh-base: 25;
 
-$color-default: #231f20;
-$color-gray: #757575;
-$color-primary: #0033a0;
-$color-secondary: #f28c38;
+$text: #111111;
+$muted: #777777;
+$accent: #315efb;
 
 $time: all 0s;
 $transition-default: all 0.3s ease-in-out;
 ```
+
+Sass 변수의 색상 값은 `app/globals.scss`의 CSS Variable(`--text`, `--muted`, `--accent`)과 항상 동일한 값으로 맞춥니다.
+실제 화면 스타일에는 CSS Variable(`var(--accent)` 등)을 사용하고, Sass 변수는 계산이 필요한 경우에만 사용합니다.
 
 ---
 
